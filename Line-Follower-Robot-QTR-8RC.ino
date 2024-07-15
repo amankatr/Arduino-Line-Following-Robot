@@ -5,7 +5,7 @@ AF_DCMotor motor1(1, MOTOR12_1KHZ ); //create motor #1 using M1 output on Motor 
 AF_DCMotor motor2(2, MOTOR12_1KHZ ); //create motor #2 using M2 output on Motor Drive Shield, set to 1kHz PWM frequency
   
 #define KP 2 //experiment to determine this, start by something small that just makes your bot follow the line at a slow speed
-#define KD 5 //experiment to determine this, slowly increase the speeds and adjust this value. ( Note: Kp < Kd) 
+#define KD 6 //experiment to determine this, slowly increase the speeds and adjust this value. ( Note: Kp < Kd) 
 #define M1_minumum_speed 150  //minimum speed of the Motor1
 #define M2_minumum_speed 150  //minimum speed of the Motor2
 #define M1_maksimum_speed 250 //max. speed of the Motor1
